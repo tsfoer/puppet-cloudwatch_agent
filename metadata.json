@@ -1,6 +1,6 @@
 {
   "name": "pcfens-cloudwatch_agent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "pcfens",
   "license": "Apache-2.0",
   "summary": "A module to and manage the AWS Cloudwatch log agent.",
@@ -21,7 +21,8 @@
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
         "12.04",
-        "14.04"
+        "14.04",
+        "17.10"
       ]
     },
     {
@@ -71,7 +72,7 @@
     },
     {
       "name": "puppetlabs/concat",
-      "version_requirement": ">=1.0.0 <2.0.0"
+      "version_requirement": ">=1.0.0"
     }
   ]
 }
