@@ -9,7 +9,6 @@ define cloudwatch_agent::log (
 ) {
 
   concat::fragment { $name:
-    ensure  => $ensure,
     target  => 'awslogs.conf',
     content => template("${module_name}/log.erb"),
     order   => '20',
